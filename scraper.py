@@ -28,7 +28,7 @@ if response.status_code == 200:
     
     # extract and print the price if found
     if price:
-        print(f'Price: {price.get_text().strip()}')
+        print(f'Price of the product: {price.get_text().strip()}')
     else:
         print('Price not found!')
 
